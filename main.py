@@ -21,18 +21,18 @@ st1 = "abc"
 st2 = "xyz"
 st3 = "abc"
 
-if st1 == st2 and st1 == st3 :
-    print("st1, st2 and st3 are all the same string")
+if st1 != st2 and st1 != st3 :
+    print("None are equal")
 
 else:
-    print("st1, st2 and st3 are all not the same string")
+    print("at least one is not equal")
 
 
-if st1 == st2 or st1 == st3:
-    print("There are at least 2 same/equal strings")
+if st1 != st2 or st1 != st3:
+    print("At least one is not equal")
 
 else:
-    print("All of the strings ar not the same")
+    print("All are equal")
 
 
 
